@@ -1,0 +1,16 @@
+platform :ios, '8.0'
+target 'NaturalNote' do
+pod 'SDWebImage'
+pod 'AFNetworking'
+pod 'ReactiveCocoa', '~> 2.5'
+pod 'MJExtension'
+pod 'TMCache'
+pod 'Masonry'
+pod 'BaiduMapKit'
+pod 'JPush'
+pod 'SBJson'
+pod 'WechatOpenSDK'
+pod 'BMKLocationKit'
+pod 'EasyShowView','~>2.1'
+pod 'MLMenu'
+end

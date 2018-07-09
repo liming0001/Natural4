@@ -1,0 +1,90 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - BaiduMapKit (3.3.2)
+  - BMKLocationKit (1.2.0)
+  - EasyShowView (2.1.2)
+  - JCore (1.1.5)
+  - JPush (3.0.6):
+    - JCore (~> 1.1.1)
+  - Masonry (1.0.2)
+  - MJExtension (3.0.13)
+  - MLMenu (1.0.1)
+  - ReactiveCocoa (2.5):
+    - ReactiveCocoa/UI (= 2.5)
+  - ReactiveCocoa/Core (2.5):
+    - ReactiveCocoa/no-arc
+  - ReactiveCocoa/no-arc (2.5)
+  - ReactiveCocoa/UI (2.5):
+    - ReactiveCocoa/Core
+  - SBJson (5.0.0)
+  - SDWebImage (4.0.0):
+    - SDWebImage/Core (= 4.0.0)
+  - SDWebImage/Core (4.0.0)
+  - TMCache (2.1.0)
+  - WechatOpenSDK (1.7.8)
+
+DEPENDENCIES:
+  - AFNetworking
+  - BaiduMapKit
+  - BMKLocationKit
+  - EasyShowView (~> 2.1)
+  - JPush
+  - Masonry
+  - MJExtension
+  - MLMenu
+  - ReactiveCocoa (~> 2.5)
+  - SBJson
+  - SDWebImage
+  - TMCache
+  - WechatOpenSDK
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
+    - BaiduMapKit
+    - BMKLocationKit
+    - EasyShowView
+    - JCore
+    - JPush
+    - Masonry
+    - MJExtension
+    - MLMenu
+    - ReactiveCocoa
+    - SBJson
+    - SDWebImage
+    - TMCache
+    - WechatOpenSDK
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  BaiduMapKit: 5118390d63b375483bd64c963e8e32a40fd9ddb5
+  BMKLocationKit: 043a9eaf3767916a692708804324adcfe86e281d
+  EasyShowView: 296c168baae336135af31eee4ce66e3bc4cffa2a
+  JCore: 9bd9c770c877c583d98b90a68792b8361974c231
+  JPush: c41be50eb1a574a66aeb68d237f00a4ec6ec3a82
+  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
+  MJExtension: 5932755f451458eefa24239358817f8d291240c7
+  MLMenu: c10e8f7bdb48f88382e5a9a78ee937d7991f5ce5
+  ReactiveCocoa: e2db045570aa97c695e7aa97c2bcab222ae51f4a
+  SBJson: 73c848dc34be51fda282fab12bda6c426f5ead08
+  SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
+  TMCache: 95ebcc9b3c7e90fb5fd8fc3036cba3aa781c9bed
+  WechatOpenSDK: ad1e7be1b66416df847ac50830c798b70c9e365e
+
+PODFILE CHECKSUM: c06a014f2c439888e54f559d0101d1ce2379a7e0
+
+COCOAPODS: 1.5.3
