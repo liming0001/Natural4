@@ -1,0 +1,6 @@
+module Pods_NaturalNote {
+  umbrella header "Pods-NaturalNote-umbrella.h"
+
+  export *
+  module * { export * }
+}
