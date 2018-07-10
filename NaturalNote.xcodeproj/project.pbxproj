@@ -8,6 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		54C836D8408472CF5F200A7E /* libPods-NaturalNote.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 669DD857DC03038ECF3E6280 /* libPods-NaturalNote.a */; };
+		663C18CD20F45AD500D5B5C5 /* GameInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 663C18CC20F45AD500D5B5C5 /* GameInfoView.m */; };
+		663C18CF20F45DAA00D5B5C5 /* JTDXShowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 663C18CE20F45DAA00D5B5C5 /* JTDXShowView.m */; };
+		663C18D220F461F600D5B5C5 /* GameListRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 663C18D120F461F600D5B5C5 /* GameListRequest.m */; };
+		663C18D520F462CD00D5B5C5 /* GameResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 663C18D420F462CD00D5B5C5 /* GameResponse.m */; };
+		663C18D820F4630900D5B5C5 /* GamePoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 663C18D720F4630900D5B5C5 /* GamePoint.m */; };
+		663C18DD20F4650800D5B5C5 /* EntryGameResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 663C18DA20F4650600D5B5C5 /* EntryGameResponse.m */; };
+		663C18DE20F4650800D5B5C5 /* EntryGameRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 663C18DB20F4650700D5B5C5 /* EntryGameRequest.m */; };
+		663C18E520F4892000D5B5C5 /* YWPointAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 663C18E020F4891D00D5B5C5 /* YWPointAnnotation.m */; };
+		663C18E620F4892000D5B5C5 /* YWRoundAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 663C18E220F4891E00D5B5C5 /* YWRoundAnnotationView.m */; };
+		663C18E720F4892000D5B5C5 /* YWRoundGameAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 663C18E320F4891F00D5B5C5 /* YWRoundGameAnnotationView.m */; };
+		663C18EA20F48AC000D5B5C5 /* PointResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 663C18E820F48AC000D5B5C5 /* PointResponse.m */; };
+		663C18ED20F4900000D5B5C5 /* WXLoginRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 663C18EC20F4900000D5B5C5 /* WXLoginRequest.m */; };
 		665B694B20EC61AA00FC718A /* GenderSelectView.m in Sources */ = {isa = PBXBuildFile; fileRef = 665B694120EC61AA00FC718A /* GenderSelectView.m */; };
 		665B694C20EC61AA00FC718A /* MarkTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 665B694320EC61AA00FC718A /* MarkTextField.m */; };
 		665B694D20EC61AA00FC718A /* NNLoginBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 665B694520EC61AA00FC718A /* NNLoginBaseView.m */; };
@@ -25,7 +37,7 @@
 		665B699320EE072A00FC718A /* LoginRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 665B699220EE072A00FC718A /* LoginRequest.m */; };
 		665B699720EE097600FC718A /* OpenUDID.m in Sources */ = {isa = PBXBuildFile; fileRef = 665B699620EE097600FC718A /* OpenUDID.m */; };
 		665B699B20EE1A7B00FC718A /* MyLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 665B699A20EE1A7A00FC718A /* MyLocation.m */; };
-		6667313520EB2B75003B0A92 /* NNMainVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6667313420EB2B75003B0A92 /* NNMainVC.m */; };
+		6667313520EB2B75003B0A92 /* NNMainVC.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6667313420EB2B75003B0A92 /* NNMainVC.mm */; };
 		6667314F20EB6822003B0A92 /* AppDelegate+DismissKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 6667313A20EB6822003B0A92 /* AppDelegate+DismissKeyboard.m */; };
 		6667315020EB6822003B0A92 /* NSString+LXCrypto.m in Sources */ = {isa = PBXBuildFile; fileRef = 6667313D20EB6822003B0A92 /* NSString+LXCrypto.m */; };
 		6667315120EB6822003B0A92 /* NSDictionary+SafeInit.m in Sources */ = {isa = PBXBuildFile; fileRef = 6667314120EB6822003B0A92 /* NSDictionary+SafeInit.m */; };
@@ -76,6 +88,30 @@
 
 /* Begin PBXFileReference section */
 		3B444328CE1490A6648057B6 /* Pods-NaturalNote.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NaturalNote.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NaturalNote/Pods-NaturalNote.debug.xcconfig"; sourceTree = "<group>"; };
+		663C18C420F44E6F00D5B5C5 /* JTDXShowView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JTDXShowView.h; sourceTree = "<group>"; };
+		663C18CB20F45AD500D5B5C5 /* GameInfoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameInfoView.h; sourceTree = "<group>"; };
+		663C18CC20F45AD500D5B5C5 /* GameInfoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameInfoView.m; sourceTree = "<group>"; };
+		663C18CE20F45DAA00D5B5C5 /* JTDXShowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTDXShowView.m; sourceTree = "<group>"; };
+		663C18D020F461F600D5B5C5 /* GameListRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameListRequest.h; sourceTree = "<group>"; };
+		663C18D120F461F600D5B5C5 /* GameListRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameListRequest.m; sourceTree = "<group>"; };
+		663C18D320F462CD00D5B5C5 /* GameResponse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameResponse.h; sourceTree = "<group>"; };
+		663C18D420F462CD00D5B5C5 /* GameResponse.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameResponse.m; sourceTree = "<group>"; };
+		663C18D620F4630900D5B5C5 /* GamePoint.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GamePoint.h; sourceTree = "<group>"; };
+		663C18D720F4630900D5B5C5 /* GamePoint.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GamePoint.m; sourceTree = "<group>"; };
+		663C18D920F4650600D5B5C5 /* EntryGameRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EntryGameRequest.h; sourceTree = "<group>"; };
+		663C18DA20F4650600D5B5C5 /* EntryGameResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EntryGameResponse.m; sourceTree = "<group>"; };
+		663C18DB20F4650700D5B5C5 /* EntryGameRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EntryGameRequest.m; sourceTree = "<group>"; };
+		663C18DC20F4650800D5B5C5 /* EntryGameResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EntryGameResponse.h; sourceTree = "<group>"; };
+		663C18DF20F4891C00D5B5C5 /* YWPointAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YWPointAnnotation.h; sourceTree = "<group>"; };
+		663C18E020F4891D00D5B5C5 /* YWPointAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YWPointAnnotation.m; sourceTree = "<group>"; };
+		663C18E120F4891E00D5B5C5 /* YWRoundAnnotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YWRoundAnnotationView.h; sourceTree = "<group>"; };
+		663C18E220F4891E00D5B5C5 /* YWRoundAnnotationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YWRoundAnnotationView.m; sourceTree = "<group>"; };
+		663C18E320F4891F00D5B5C5 /* YWRoundGameAnnotationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YWRoundGameAnnotationView.m; sourceTree = "<group>"; };
+		663C18E420F4892000D5B5C5 /* YWRoundGameAnnotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YWRoundGameAnnotationView.h; sourceTree = "<group>"; };
+		663C18E820F48AC000D5B5C5 /* PointResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PointResponse.m; sourceTree = "<group>"; };
+		663C18E920F48AC000D5B5C5 /* PointResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PointResponse.h; sourceTree = "<group>"; };
+		663C18EB20F48FFF00D5B5C5 /* WXLoginRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXLoginRequest.h; sourceTree = "<group>"; };
+		663C18EC20F4900000D5B5C5 /* WXLoginRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXLoginRequest.m; sourceTree = "<group>"; };
 		665B694020EC61AA00FC718A /* GenderSelectView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GenderSelectView.h; sourceTree = "<group>"; };
 		665B694120EC61AA00FC718A /* GenderSelectView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GenderSelectView.m; sourceTree = "<group>"; };
 		665B694220EC61AA00FC718A /* MarkTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarkTextField.h; sourceTree = "<group>"; };
@@ -112,7 +148,7 @@
 		665B699920EE1A7A00FC718A /* MyLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyLocation.h; sourceTree = "<group>"; };
 		665B699A20EE1A7A00FC718A /* MyLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyLocation.m; sourceTree = "<group>"; };
 		6667313320EB2B75003B0A92 /* NNMainVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNMainVC.h; sourceTree = "<group>"; };
-		6667313420EB2B75003B0A92 /* NNMainVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NNMainVC.m; sourceTree = "<group>"; };
+		6667313420EB2B75003B0A92 /* NNMainVC.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = NNMainVC.mm; sourceTree = "<group>"; };
 		6667313720EB674A003B0A92 /* NNMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NNMacro.h; sourceTree = "<group>"; };
 		6667313920EB6822003B0A92 /* AppDelegate+DismissKeyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+DismissKeyboard.h"; sourceTree = "<group>"; };
 		6667313A20EB6822003B0A92 /* AppDelegate+DismissKeyboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+DismissKeyboard.m"; sourceTree = "<group>"; };
@@ -199,6 +235,46 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		663C18C120F44AD200D5B5C5 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		663C18C220F44AD200D5B5C5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				663C18C720F45A2E00D5B5C5 /* GameInfoView */,
+				663C18C320F44AED00D5B5C5 /* JTDXShowView */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		663C18C320F44AED00D5B5C5 /* JTDXShowView */ = {
+			isa = PBXGroup;
+			children = (
+				663C18C420F44E6F00D5B5C5 /* JTDXShowView.h */,
+				663C18CE20F45DAA00D5B5C5 /* JTDXShowView.m */,
+			);
+			path = JTDXShowView;
+			sourceTree = "<group>";
+		};
+		663C18C720F45A2E00D5B5C5 /* GameInfoView */ = {
+			isa = PBXGroup;
+			children = (
+				663C18DF20F4891C00D5B5C5 /* YWPointAnnotation.h */,
+				663C18E020F4891D00D5B5C5 /* YWPointAnnotation.m */,
+				663C18E120F4891E00D5B5C5 /* YWRoundAnnotationView.h */,
+				663C18E220F4891E00D5B5C5 /* YWRoundAnnotationView.m */,
+				663C18E420F4892000D5B5C5 /* YWRoundGameAnnotationView.h */,
+				663C18E320F4891F00D5B5C5 /* YWRoundGameAnnotationView.m */,
+				663C18CB20F45AD500D5B5C5 /* GameInfoView.h */,
+				663C18CC20F45AD500D5B5C5 /* GameInfoView.m */,
+			);
+			path = GameInfoView;
+			sourceTree = "<group>";
+		};
 		665B693320EC61AA00FC718A /* LoginAndRegister */ = {
 			isa = PBXGroup;
 			children = (
@@ -250,6 +326,8 @@
 		665B698320EE05CA00FC718A /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				663C18EB20F48FFF00D5B5C5 /* WXLoginRequest.h */,
+				663C18EC20F4900000D5B5C5 /* WXLoginRequest.m */,
 				665B699120EE072A00FC718A /* LoginRequest.h */,
 				665B699220EE072A00FC718A /* LoginRequest.m */,
 			);
@@ -283,6 +361,18 @@
 			children = (
 				665B699920EE1A7A00FC718A /* MyLocation.h */,
 				665B699A20EE1A7A00FC718A /* MyLocation.m */,
+				663C18E920F48AC000D5B5C5 /* PointResponse.h */,
+				663C18E820F48AC000D5B5C5 /* PointResponse.m */,
+				663C18D920F4650600D5B5C5 /* EntryGameRequest.h */,
+				663C18DB20F4650700D5B5C5 /* EntryGameRequest.m */,
+				663C18DC20F4650800D5B5C5 /* EntryGameResponse.h */,
+				663C18DA20F4650600D5B5C5 /* EntryGameResponse.m */,
+				663C18D020F461F600D5B5C5 /* GameListRequest.h */,
+				663C18D120F461F600D5B5C5 /* GameListRequest.m */,
+				663C18D320F462CD00D5B5C5 /* GameResponse.h */,
+				663C18D420F462CD00D5B5C5 /* GameResponse.m */,
+				663C18D620F4630900D5B5C5 /* GamePoint.h */,
+				663C18D720F4630900D5B5C5 /* GamePoint.m */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -436,9 +526,11 @@
 		81020A4020EA99BB00E38CDA /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				663C18C120F44AD200D5B5C5 /* ViewControllers */,
+				663C18C220F44AD200D5B5C5 /* Views */,
 				665B699820EE1A6B00FC718A /* Service */,
 				6667313320EB2B75003B0A92 /* NNMainVC.h */,
-				6667313420EB2B75003B0A92 /* NNMainVC.m */,
+				6667313420EB2B75003B0A92 /* NNMainVC.mm */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -692,6 +784,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				663C18E720F4892000D5B5C5 /* YWRoundGameAnnotationView.m in Sources */,
 				665B694C20EC61AA00FC718A /* MarkTextField.m in Sources */,
 				665B695920EC66BE00FC718A /* TPKeyboardAvoidingTableView.m in Sources */,
 				665B699020EE070E00FC718A /* UserValue.m in Sources */,
@@ -705,6 +798,7 @@
 				6667315020EB6822003B0A92 /* NSString+LXCrypto.m in Sources */,
 				6667315320EB6822003B0A92 /* UIColor+LXCustomColor.m in Sources */,
 				6667314F20EB6822003B0A92 /* AppDelegate+DismissKeyboard.m in Sources */,
+				663C18CF20F45DAA00D5B5C5 /* JTDXShowView.m in Sources */,
 				665B695820EC66BE00FC718A /* TPKeyboardAvoidingScrollView.m in Sources */,
 				6667315620EB6822003B0A92 /* UIImageView+LXSDWebImageView.m in Sources */,
 				665B699320EE072A00FC718A /* LoginRequest.m in Sources */,
@@ -716,17 +810,27 @@
 				665B699B20EE1A7B00FC718A /* MyLocation.m in Sources */,
 				665B699720EE097600FC718A /* OpenUDID.m in Sources */,
 				665B694B20EC61AA00FC718A /* GenderSelectView.m in Sources */,
+				663C18CD20F45AD500D5B5C5 /* GameInfoView.m in Sources */,
+				663C18D820F4630900D5B5C5 /* GamePoint.m in Sources */,
 				6667315520EB6822003B0A92 /* UIImagePickerController+CustomShowPicker.m in Sources */,
 				6667315720EB6822003B0A92 /* UIView+EdgeOfFrame.m in Sources */,
 				6667316B20EB6B64003B0A92 /* lhScanQCodeViewController.m in Sources */,
+				663C18DE20F4650800D5B5C5 /* EntryGameRequest.m in Sources */,
 				665B698C20EE063E00FC718A /* LXHTTPRequestManager.m in Sources */,
 				6667316F20EB6B64003B0A92 /* QRCodeReaderView.m in Sources */,
 				6667315120EB6822003B0A92 /* NSDictionary+SafeInit.m in Sources */,
 				665B698D20EE063E00FC718A /* LXNetworkConfig.m in Sources */,
 				6667315220EB6822003B0A92 /* NSMutableArray+SafeIndex.m in Sources */,
+				663C18E620F4892000D5B5C5 /* YWRoundAnnotationView.m in Sources */,
 				81020A5520EA9DAA00E38CDA /* NNSliderVC.m in Sources */,
-				6667313520EB2B75003B0A92 /* NNMainVC.m in Sources */,
+				6667313520EB2B75003B0A92 /* NNMainVC.mm in Sources */,
+				663C18ED20F4900000D5B5C5 /* WXLoginRequest.m in Sources */,
 				665B696420EDB38900FC718A /* CommonUtility.m in Sources */,
+				663C18EA20F48AC000D5B5C5 /* PointResponse.m in Sources */,
+				663C18E520F4892000D5B5C5 /* YWPointAnnotation.m in Sources */,
+				663C18D220F461F600D5B5C5 /* GameListRequest.m in Sources */,
+				663C18DD20F4650800D5B5C5 /* EntryGameResponse.m in Sources */,
+				663C18D520F462CD00D5B5C5 /* GameResponse.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -14,7 +14,7 @@ PODS:
   - AFNetworking/Serialization (3.1.0)
   - AFNetworking/UIKit (3.1.0):
     - AFNetworking/NSURLSession
-  - BaiduMapKit (3.3.2)
+  - BaiduMapKit (4.1.1)
   - BMKLocationKit (1.2.0)
   - EasyShowView (2.1.2)
   - JCore (1.1.5)
@@ -39,7 +39,7 @@ PODS:
 
 DEPENDENCIES:
   - AFNetworking
-  - BaiduMapKit
+  - BaiduMapKit (~> 4.1.1)
   - BMKLocationKit
   - EasyShowView (~> 2.1)
   - JPush
@@ -71,7 +71,7 @@ SPEC REPOS:
 
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
-  BaiduMapKit: 5118390d63b375483bd64c963e8e32a40fd9ddb5
+  BaiduMapKit: 51bba432a28316680676b4d453a70e5031f3a7eb
   BMKLocationKit: 043a9eaf3767916a692708804324adcfe86e281d
   EasyShowView: 296c168baae336135af31eee4ce66e3bc4cffa2a
   JCore: 9bd9c770c877c583d98b90a68792b8361974c231
@@ -85,6 +85,6 @@ SPEC CHECKSUMS:
   TMCache: 95ebcc9b3c7e90fb5fd8fc3036cba3aa781c9bed
   WechatOpenSDK: ad1e7be1b66416df847ac50830c798b70c9e365e
 
-PODFILE CHECKSUM: c06a014f2c439888e54f559d0101d1ce2379a7e0
+PODFILE CHECKSUM: 865a22847b5547099113d3805400303d2e59b24e
 
 COCOAPODS: 1.5.3

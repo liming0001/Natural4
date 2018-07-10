@@ -62,7 +62,6 @@
     
     
     CLLocationCoordinate2D coor = [CommonUtility sharedManager].userCoordinate;
-    CLLocationCoordinate2D changeCoor = coor;
     NSString *gpsLocation = @"UNKNOWN";
     if (coor.latitude > 0 || coor.longitude > 0) {
         gpsLocation = [NSString stringWithFormat:@"%fE|%fN", coor.longitude, coor.latitude];

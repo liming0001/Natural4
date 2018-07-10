@@ -7,6 +7,8 @@
 //
 
 #import "NNLoginWeChatVC.h"
+#import "WXLoginRequest.h"
+#import "JPUSHService.h"
 #import "WXApi.h"
 
 @interface NNLoginWeChatVC ()
@@ -52,43 +54,55 @@
     NSData *data = [zoneStr dataUsingEncoding:NSUTF8StringEncoding];
     dispatch_async(dispatch_get_main_queue(), ^{
         if (data) {
-//            [SVProgressHUD dismiss];
             NSDictionary *dic = [NSJSONSerialization JSONObjectWithData:data options:NSJSONReadingMutableContainers error:nil];
             NSLog(@"dic777 = %@",dic);
-//            NSString *openid = [CommonUtility ReturnBlankString:dic[@"openid"]];
-//            NSString *nickname = [CommonUtility ReturnBlankString:dic[@"nickname"]];
-//            NSNumber *sex = dic[@"sex"];
-//            NSString *headimgurl = [CommonUtility ReturnBlankString:dic[@"headimgurl"]];
-//            NSString *unionid = [CommonUtility ReturnBlankString:dic[@"unionid"]];
-//            WXLoginRequest *request = [WXLoginRequest new];
-//            request.openid = openid;
-//            request.nickname = nickname;
-//            request.sex = sex;
-//            request.headimgurl = headimgurl;
-//            request.unionid = unionid;
-//            request.registrationId = [CommonUtility sharedManager].registrationId;
-//            [request startWithCompletionHandle:^(LXBaseRequest *request, id response, BOOL success) {
-//                NSLog(@"loginresponse11===%@",response);
-//                LoginResponse *data = [LoginResponse mj_objectWithKeyValues:response];
-//                if ([response[@"success"]boolValue]) {
-//                    USERVALUE.userInfo = data;
-//                    NSString *phoneS = [CommonUtility ReturnBlankString:USERVALUE.userInfo.userPhoneNum];
-//                    if (phoneS.length != 0) {
-//                        [self saveUserInfo];
-//                    }else{
+            NSString *openid = [CommonUtility ReturnBlankString:dic[@"openid"]];
+            NSString *nickname = [CommonUtility ReturnBlankString:dic[@"nickname"]];
+            NSNumber *sex = dic[@"sex"];
+            NSString *headimgurl = [CommonUtility ReturnBlankString:dic[@"headimgurl"]];
+            NSString *unionid = [CommonUtility ReturnBlankString:dic[@"unionid"]];
+            WXLoginRequest *request = [WXLoginRequest new];
+            request.openid = openid;
+            request.nickname = nickname;
+            request.sex = sex;
+            request.headimgurl = headimgurl;
+            request.unionid = unionid;
+            request.registrationId = [CommonUtility sharedManager].registrationId;
+            [request startWithCompletionHandle:^(LXBaseRequest *request, id response, BOOL success) {
+                NSLog(@"loginresponse11===%@",response);
+                LoginResponse *data = [LoginResponse mj_objectWithKeyValues:response];
+                if ([response[@"success"]boolValue]) {
+                    USERVALUE.userInfo = data;
+                    NSString *phoneS = [CommonUtility ReturnBlankString:USERVALUE.userInfo.userPhoneNum];
+                    if (phoneS.length != 0) {
+                        [self saveUserInfo];
+                    }else{
 //                        PhoneNumSetVC *VC = [[PhoneNumSetVC alloc]init];
 //                        VC.didFinishedCallback = ^(NSString *phoneNumber) {
 //                            USERVALUE.userInfo.userPhoneNum = phoneNumber;
 //                            [self saveUserInfo];
 //                        };
 //                        [self.navigationController pushViewController:VC animated:YES];
-//                    }
-//                }else {
-//                    [[ZLAlertCenter defaultCenter] postAlertWithMessage:data.desc];
-//                }
-//            }];
+                    }
+                }else {
+                    [EasyTextView showErrorText:data.desc config:^EasyTextConfig *{
+                        return [EasyTextConfig shared].setStatusType(TextStatusTypeNavigation) ;
+                    }];
+                }
+            }];
         }
     });
+}
+
+- (void)saveUserInfo{
+    [USERVALUE saveToDisk];
+    //登录
+    [JPUSHService setAlias:USERVALUE.userInfo.userPhoneNum completion:^(NSInteger iResCode, NSString *iAlias, NSInteger seq) {
+        
+    } seq:1];
+    [CommonUtility sharedManager].isLoginAgain = YES;
+//    [[NSNotificationCenter defaultCenter] postNotificationName:Login_Notify object:nil];
+    [self.navigationController popToRootViewControllerAnimated:YES];
 }
 
 - (void)didReceiveMemoryWarning {

@@ -16,6 +16,7 @@
 #import "Masonry.h"
 #import <MJExtension/MJExtension.h>
 #import <AFNetworking/AFNetworking.h>
+#import <ReactiveCocoa/ReactiveCocoa.h>
 #import "CategoryHeader.h"
 #import "GlobalNotification.h"
 #import "CommonUtility.h"
